@@ -83,22 +83,7 @@ local PALETTE_CHAR = {
 	[EMBLEM] = "FFAE32FF"
 }
 
-local HM_CHARNAME2= {
-    label = {
-        left = get_texture_info("LeftHealth"),
-        right = get_texture_info("RightHealth"),
-    },
-    pie = {
-        [1] = get_texture_info("Pie1"),
-        [2] = get_texture_info("Pie2"),
-        [3] = get_texture_info("Pie3"),
-        [4] = get_texture_info("Pie4"),
-        [5] = get_texture_info("Pie5"),
-        [6] = get_texture_info("Pie6"),
-        [7] = get_texture_info("Pie7"),
-        [8] = get_texture_info("Pie8"),
-    }
-}
+
 
 local CSloaded = false
 local function on_character_select_load()
